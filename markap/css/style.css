@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+#main {
+    padding: 50px 0px;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-shadow: 2px 2px 3px rgb(55, 192, 85);
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(55, 192, 85);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+#dataTable {
+    border-collapse: collapse;
+    display: none;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+#city,
+#address {
+    border: solid 1px rgb(55, 192, 85);
+    border-radius: 5px;
+}
+
+#registration-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    border: 2px solid rgb(55, 192, 85);
+    border-radius: 10px;
+    width: 400px;
+}
+
+#form{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+label {
+    margin: 10px 30px 0 0;
+    padding: 0 0 5px 0;
+    font-weight: 600;
+
+}
+
+input {
+    height: 30px;
+    border: solid 1px rgb(55, 192, 85);
+    border-radius: 5px;
+}
+
+.languages-container, 
+.radio-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: solid 1px rgb(55, 192, 85);
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+
+#male, 
+#female, 
+#address, 
+#english, 
+#spanish, 
+#french {
+    margin: 10px 0 10px 0;
+    width: auto;
+    height: auto;
+}
+
+button {
+    font-weight: 600;
+    margin: 20px 0 20px 75px;
+    border: solid 1px rgb(223, 62, 13);
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    text-shadow: 2px 2px 3px rgb(223, 62, 13);
+    text-decoration: underline;
+}
